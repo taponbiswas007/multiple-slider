@@ -7,11 +7,11 @@
 
   var swiper = new Swiper(".mySwiper", {
       loop: true,
-      spaceBetween: 0,
+      spaceBetween: 20,
       slidesPerView: 5,
       freeMode: true,
       watchSlidesProgress: true,
-      centeredSlides: true,
+   
 
     });
   var swiper2 = new Swiper(".mySwiper2", {
