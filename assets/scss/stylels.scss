@@ -32,12 +32,10 @@
       margin-right: auto;
 
       &:hover .swiper-button-next {
-        //display: block;
         opacity: 1;
       }
 
-      &:hover .swiper-button-prev {
-        //display: block;
+      &:hover .swiper-button-prev { 
         opacity: 1;
       }
 
@@ -68,10 +66,8 @@
         background: rgba(0, 0, 0, .5);
         top: 0;
         bottom: 0;
-       // transform: none;
         right: 0;
         margin: 0;
-        //display: none;
         opacity: 0;
 
         &::after {
@@ -86,10 +82,8 @@
         background: rgba(0, 0, 0, .5);
         top: 0;
         bottom: 0;
-       // transform: none;
         left: 0;
         margin: 0;
-        //display: none;
         opacity: 0;
 
         &::after {
