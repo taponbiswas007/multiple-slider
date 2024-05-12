@@ -32,6 +32,12 @@
   margin-left: auto;
   margin-right: auto;
 }
+.hero-wrapper .hero-main-area .sub-slider:hover .swiper-button-next {
+  opacity: 1;
+}
+.hero-wrapper .hero-main-area .sub-slider:hover .swiper-button-prev {
+  opacity: 1;
+}
 .hero-wrapper .hero-main-area .sub-slider .slider-list .slider-item {
   background-size: cover;
   background-position: center;
@@ -48,4 +54,30 @@
 }
 .hero-wrapper .hero-main-area .sub-slider .slider-list .swiper-slide-thumb-active {
   opacity: 1;
+}
+.hero-wrapper .hero-main-area .sub-slider .swiper-button-next {
+  color: #FFFFFF;
+  height: 100% !important;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+}
+.hero-wrapper .hero-main-area .sub-slider .swiper-button-next::after {
+  font-size: 20px;
+}
+.hero-wrapper .hero-main-area .sub-slider .swiper-button-prev {
+  color: #FFFFFF;
+  height: 100% !important;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  opacity: 0;
+}
+.hero-wrapper .hero-main-area .sub-slider .swiper-button-prev::after {
+  font-size: 20px;
 }/*# sourceMappingURL=stylels.css.map */
