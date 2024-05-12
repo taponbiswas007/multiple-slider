@@ -73,12 +73,24 @@
 .hero-wrapper .hero-main-area .sub-slider:hover .swiper-button-prev {
   opacity: 1;
 }
+.hero-wrapper .hero-main-area .sub-slider .slider-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: auto;
+  -ms-scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
 .hero-wrapper .hero-main-area .sub-slider .slider-list .slider-item {
   background-size: cover;
   background-position: center;
   width: 25%;
   height: 100%;
   opacity: 0.8;
+  scroll-snap-align: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 .hero-wrapper .hero-main-area .sub-slider .slider-list .slider-item img {
   display: block;
@@ -113,4 +125,4 @@
 }
 .hero-wrapper .hero-main-area .sub-slider .swiper-button-prev::after {
   font-size: 20px;
-}/*# sourceMappingURL=stylels.css.map */
+}
